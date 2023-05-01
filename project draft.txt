@@ -1,0 +1,27 @@
+Sports Engineering Project draft
+----------------------------------------------------
+max velocity = 50 m/s
+min distance from goal = 16.5 m
+max angle = 55 degrees
+min angle = 0 degrees
+----------------------------------------------------
+/* during ball rising*/
+vx = vo * cos 0
+vy = vo * sin 0 - g * t
+
+t = (vo * sin 0) / g       // time till the ball reaches highest elevation
+
+h = vo * t * sin 0 - 1/2 * g * t^2   // max height
+
+s = vo * t * cos 0    // distance travelled untill max height
+
+/* during ball falling*/
+vx = vo * cos 0
+vy = -g * t
+
+s' = distance - s    // distance from max height to goal line
+
+t2 = s' / (vo * cos 0)  // time from max height to goal line
+
+h' = h - 1/2 * g * (t2)^2   // height at goal line
+
