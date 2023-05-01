@@ -4,6 +4,7 @@ max velocity = 50 m/s
 min distance from goal = 16.5 m
 max angle = 55 degrees
 min angle = 0 degrees
+goal height = 2.44 m
 ----------------------------------------------------
 /* during ball rising*/
 vx = vo * cos 0
