@@ -7,7 +7,7 @@ This repository contains a 3D visualisation app for football projectile motion u
 - ball position is updated at every iteration using kinetics and momentum laws.
 
   ## run the project
-- you have to have python installed, and the library Vpython. fork the repo to your local machine and run the command python sportstry.py the app should start on your local host port(64866).
+- you have to have python installed, and the library Vpython. fork the repo to your local machine and run the command ``` python sportstry.py ``` the app should start on your local host port(64866).
 
 ## preview
 ### initial state
